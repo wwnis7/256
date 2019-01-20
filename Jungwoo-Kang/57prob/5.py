@@ -1,0 +1,13 @@
+
+first=input('What is the first number? ')
+second=input('what is the second number? ')
+int(first)
+int(second)
+add=int(first)+int(second)
+sub=int(first)-int(second)
+mul=int(first)*int(second)
+div=float(first)/float(second)
+print('%d + %d = %d'%(int(first),int(second),int(add)))
+print('%d - %d = %d'%(int(first),int(second),int(sub)))
+print('%d * %d = %d'%(int(first),int(second),int(mul)))
+print('%f / %f = %f'%(float(first),float(second),float(div)))
