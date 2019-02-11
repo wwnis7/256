@@ -6,6 +6,7 @@
 # You got it in 3 guesses!
 # Play again? n
 # Goodbye!
+import random as rm
 
 print('Let\' play Guess the Nubmer.')
 diff = input('Pick a difficulty level (1, 2, or 3): ')
@@ -17,12 +18,11 @@ elif diff == '3':
     n = 1000
 else:
     print('you enter the wrong number.')
-#########random으로 correct잡는법
 
+correct=rm.randrange(1,n+1)
 # correct=np.random(1,n+1,1)
 
 again='y'
-correct = 3
 
 while again == 'y':
     count=0
